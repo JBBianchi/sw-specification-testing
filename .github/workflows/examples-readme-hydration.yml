@@ -37,7 +37,7 @@ jobs:
           # Commit & push changes
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          git commit -a -m 'Rebuilt examples README.md'
+          git commit -S -a -m 'Rebuilt examples README.md'
           git push origin automation-examples-readme-${{ github.event.pull_request.number }}
 
           # Create a PR on GH
