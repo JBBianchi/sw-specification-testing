@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'JBBianchi/specification' &&  github.event.pull_request.merged == true
+    if: github.repository == 'JBBianchi/sw-specification-testing' &&  github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
