@@ -29,6 +29,7 @@ jobs:
           git checkout -b automation-examples-readme-${{ github.event.pull_request.number }}
 
           # Install & run JS scripts
+          cd .ci/examples-readme-hydration/
           npm ci
           npm start
 
