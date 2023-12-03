@@ -8,7 +8,6 @@
 -->
 # Examples
 
----test----
 Provides Serverless Workflow language examples
 
 ## Table of Contents
