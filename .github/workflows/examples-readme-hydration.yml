@@ -61,4 +61,4 @@ jobs:
           # Create a PR on GH
           gh pr create -B main -H automation-examples-readme-${{ github.event.pull_request.number }} --title '[From CI] Rebuilt examples README' --body 'Automatic hydration of examples README.md'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
