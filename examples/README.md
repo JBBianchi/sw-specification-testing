@@ -3538,7 +3538,7 @@ the data for an hour, send report, and so on.
 
 ```json
 {
-    "id": "roomreadings",
+    "id": "roomreadings3",
     "name": "roomreadings",
     "description": "Room Temp and Humidity Workflow",
     "version": "1.0.0",
@@ -3633,7 +3633,7 @@ the data for an hour, send report, and so on.
 <td valign="top">
 
 ```yaml
-id: roomreadings
+id: roomreadings3
 name: roomreadings
 description: Room Temp and Humidity Workflow
 version: 1.0.0
